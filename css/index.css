@@ -1,0 +1,334 @@
+html, body {
+    margin: 0 auto;
+}
+
+body {
+    background-position: top;
+    background-color: blanchedalmond;
+}
+
+.err {
+	color: red;
+	font-size: 12px;
+}
+
+.linie{
+	background-color:#ffffe6;
+	border: 1px solid #696969;
+	max-width: 100%;
+	color:  #696969;
+	padding:10px;
+	margin: 5px;
+	box-shadow: 2px 3px 5px light-gray;
+}
+
+.header, .corp, .footer, .descriere {
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 100%;
+    min-height: 900px;
+}
+.header {
+    width: 100%;
+    background-color: #2b2000;
+    box-shadow: -1px 0px 39px 9px #2b2000;
+    z-index: 1;
+    padding: 30px;
+}
+
+.footer {
+    width: 920px;
+    margin: 100px auto;
+    margin-bottom: 30px;
+    background-image: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    filter: drop-shadow(1px 2px 1px #2b2000);
+}
+    .footer p {
+        text-align: center;
+    }
+
+.rel {
+    width: 100%;
+    position: relative;
+    display: grid;
+}
+
+.logo {
+    margin: -10px auto;
+    z-index: 2;
+    display: flex;
+    filter: drop-shadow(0px 0px 15px #000);
+    display: block
+}
+
+.text {
+    font-size: 30px;
+    margin: 0 auto;
+    font-family: 'Raleway';
+}
+
+.color {
+    height: 170px;
+    color: #2b2000;
+}
+
+.meniu {
+    height: 75px;
+    margin: 200px auto;
+    background: #2b2000;
+    text-align: center;
+    box-shadow: -1px 0px 39px 9px #2b2000;
+    border-radius: 40px;width: 1250px
+}
+
+    .meniu ul li {
+        list-style: none;
+        display: inline-block;
+        font: bold 14px/30px Arial, serif;
+    }
+    .meniu li a {
+        text-decoration: none;
+        display: block;
+        margin: 0 auto;
+        padding: 22px 50px;
+        color: blanchedalmond;
+        vertical-align: middle;
+        font-size: 45px;
+    }
+        .meniu li a:hover {
+            text-decoration: none;
+            display: block;
+            margin: 0 auto;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 45px;
+            filter: drop-shadow(1px 1px 10px blanchedalmond);
+        }
+    .meniu li b {
+        text-decoration: none;
+        display: block;
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 45px;
+        color: blanchedalmond;
+        filter: drop-shadow(1px 1px 10px blanchedalmond);
+    }
+
+.linie {
+    display: inline-block;
+}
+
+.table {
+    display: table;
+    width: 1024px;
+    height: 1024px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    width: 512px
+}
+
+.anim {
+    width: 1024px;
+    height: 1024px;
+    background: url("../img/5.png") no-repeat 0 0;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    margin: 100px auto;
+    width: 1250px
+}
+
+SPAN.layer {
+    cursor: pointer;
+    text-decoration: none;
+    border: 3px solid #2b2000;
+    border-bottom: 0;
+    border-radius: 7px 7px 0 0;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 18px;
+    display: inline-block;
+    text-align: justify;
+    text-indent: 0;
+    box-shadow: 01px 0px 2px 2px #2b2000;
+    margin-bottom: 3px;
+}
+
+SPAN.act {
+    background-color: #ffe4bb;
+    font-weight: bold;
+}
+
+DIV.layer {
+    border: 3px solid #2b2000;
+    border-radius: 0 7px 7px 7px;
+    color: #000;
+    font: 25px Verdana,Geneva,Arial,Helvetica,sans-serif;
+    background-color: #ffe4bb;
+    padding: 5px;
+    display: none;
+    line-height: 20px;
+    box-shadow: 0px 0px 2px 2px #2b2000;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+    DIV.layer P {
+        padding: 10px 20px;
+    }
+
+DIV.act {
+    display: block
+}
+
+.png {
+    display:block;
+    margin: 0 auto;
+}
+
+.dscr {
+    display: block;
+    margin: 35px 35px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px #2b2000;
+    text-indent: 30px;
+    line-height: 1.1;
+}
+.prd {
+    display: block;
+    margin: 0 300px;
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px #2b2000;
+    line-height: 1.2;
+}
+.reciept {
+    display: block;
+    margin: 35px 200px;
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px #2b2000;
+}
+
+* input, .raw, .column, .cont, textarea {
+    box-sizing: border-box;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #2b2000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    input[type=submit]:hover {
+        background-color: blanchedalmond;
+        color: black;
+        border-radius: 4px;
+    }
+
+.cont {
+    margin: 0 auto;
+    width: 1250px;
+    border-radius: 5px;
+    background-color: #ffe4bb;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px #2b2000;
+}
+.cont h3{
+    text-align: center;
+    color: silver;
+}
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    filter: drop-shadow(1px 2px 2px #2b2000);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.iframe {
+    margin: 10px auto;
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+    border-radius: 10px;
+    filter: drop-shadow(1px 2px 2px #2b2000);
+}
+ppp {
+    font: 10px red;
+    text-align: right;
+    text-transform: capitalize;
+}
+.auth{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+header h1{
+    color: blanchedalmond;
+    font-size: 60px
+}
+.exit{
+    position: absolute;
+    right: 0;
+    text-align: center;
+    background: #2b2000;
+    width: 110px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px 0 0 15px;
+    filter: drop-shadow(1px 2px 2px #2b2000);
+}
+.exit a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.exit a:hover{
+    filter: drop-shadow(1px 1px 1px blanchedalmond);
+}
